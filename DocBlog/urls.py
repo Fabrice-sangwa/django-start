@@ -26,4 +26,5 @@ urlpatterns = [
     #path('error/', server_error),
     path('', index, name="index"),
     path('blog/', include("blog.urls")),
+    path('site/', include("Site.urls"))
 ]
