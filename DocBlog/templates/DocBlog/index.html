@@ -1,0 +1,15 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Bonjour {{  name |upper}}, voici mon tout premier code en html avec django</h1>
+    <h2>Ajourd'hui nous sommes le {{date|date:"d F Y  H:i:s"}}</h2>
+
+</body>
+</html>
